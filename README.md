@@ -28,7 +28,9 @@ At this point, we don't have enough info about the project, so we will add the d
 1.  Clone the repository
 
 ## License
-This project is licensed under the MIT License. See the ??????????????????? for details.
+This project is licensed under the MIT License. 
+
+See the (https://github.com/HrSTILL/Stoichev/blob/9da5130840b79c81c7f653e9026f375ca5fc9835/LICENSE) for details.
 
 ## Acknowledgments
 Thanks to Library Name for providing great resources.
