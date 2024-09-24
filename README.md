@@ -7,7 +7,7 @@
 </style>
 
 <p align="center">
-  <img class="banner" src="https://raw.githubusercontent.com/username/repository/branch/path/to/image.png" alt="Custom Banner" />
+  <img class="banner" src="" alt="Custom Banner" />
 </p>
 
 
