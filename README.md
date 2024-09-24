@@ -1,7 +1,7 @@
 # Software Enjeneering Project
 
 <p align="center">
-  <img src="" alt="Custom Banner" width="800"/>
+  <img src="Images/Project Banner Stoichev.png" alt="Custom Banner" width="800"/>
 </p>
 
 ## Group 2
