@@ -1,8 +1,15 @@
 # Software Enjeneering Project
 
+<style>
+  .banner {
+    width: 400px; 
+    height: auto; 
+</style>
+
 <p align="center">
-  <img src="Images/Project Banner Stoichev.png" alt="Custom Banner" width="800"/>
+  <img class="banner" src="https://raw.githubusercontent.com/username/repository/branch/path/to/image.png" alt="Custom Banner" />
 </p>
+
 
 ## Group 2
 1. Stiliyan Hristov
