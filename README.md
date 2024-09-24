@@ -7,7 +7,7 @@
 </style>
 
 <p align="center">
-  <img class="banner" src="" alt="Custom Banner" />
+  <img class="banner" src="Images/Project Banner Stoichev.png" alt="Custom Banner" />
 </p>
 
 
