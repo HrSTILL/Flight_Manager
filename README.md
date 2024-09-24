@@ -1,13 +1,7 @@
 # Software Enjeneering Project
 
-<style>
-  .banner {
-    width: 400px; 
-    height: auto; 
-</style>
-
 <p align="center">
-  <img class="banner" src="Images/Project Banner Stoichev.png" alt="Custom Banner" />
+  <img src=""Images/Project Banner Stoichev.png"" alt="Custom Banner" width="400" />
 </p>
 
 
