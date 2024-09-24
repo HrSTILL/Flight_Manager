@@ -6,18 +6,18 @@
 </p>
 
 ## Project Overview
-The goal of this project is to develop a user-friendly application that solves [specific problem]. We plan to use the following technologies:
+The goal of the project is to crate an Windows Forms App + working DataBase in Accsses and connect them, so we have a functional Manager App for reserving plane tickets.
 - Language: C#
-- Framework: -
 - Database: Access
 
 ## Important Dates
 
 📅 **Start Date:** September 24, 2024  
-🏁 **End Date:** -, 2025
+🏁 **End Date:** 28 February, 2025
 
 ## Description
-At this point, we don't have enough info about the project, so we will add the description after we receive the additional information.
+The manager of flight tickets ("Flight Manager") is a system, which is used to reserve plane tickets and managing flights. It grants you the power to follow already passed flights with the 
+information regarding the passengers that are traveling.
 
 ## Group 2
 
@@ -36,10 +36,6 @@ At this point, we don't have enough info about the project, so we will add the d
 This project is licensed under the MIT License. 
 
 See the [LICENSE](https://github.com/HrSTILL/Stoichev/blob/9da5130840b79c81c7f653e9026f375ca5fc9835/LICENSE) for details.
-
-## Acknowledgments
-Thanks to Library Name for providing great resources.  
-Special thanks to [Contributor Name] for their help in developing the initial concept.
 
 ## Contact Information
 *For inquiries, please reach out to the group members:*
