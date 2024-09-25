@@ -6,7 +6,7 @@
 </p>
 
 ## Project Overview
-The goal of the project is to crate an Windows Forms App + working DataBase in Accsses and connect them, so we have a functional Manager App for reserving plane tickets.
+The goal of the project is to crate a website application + working database with ASP, so we have a functional Manager App for reserving plane tickets.
 - Language: C#
 - Framework: ASP
 - Database: Entity
@@ -31,7 +31,9 @@ information regarding the passengers that are traveling.
 - Miroslav Nedyalkov
 
 ## Installation Instructions
-1. Clone the repository.
+1. Install ASP in your Visual Studio.
+2. Clone the repository.
+3. Run the Site.
 
 ## License
 This project is licensed under the MIT License. 
