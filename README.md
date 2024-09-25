@@ -31,9 +31,9 @@ information regarding the passengers that are traveling.
 - Miroslav Nedyalkov
 
 ## Installation Instructions
-1. Install ASP in your Visual Studio.
-2. Clone the repository.
-3. Run the Site.
+- Install ASP in your Visual Studio.
+- Clone the repository.
+- Run the Site.
 
 ## License
 This project is licensed under the MIT License. 
