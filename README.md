@@ -8,7 +8,8 @@
 ## Project Overview
 The goal of the project is to crate an Windows Forms App + working DataBase in Accsses and connect them, so we have a functional Manager App for reserving plane tickets.
 - Language: C#
-- Database: Access
+- Framework: ASP
+- Database: Entity
 
 ## Important Dates
 
