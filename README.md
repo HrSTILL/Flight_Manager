@@ -7,9 +7,10 @@
 
 ## Project Overview
 The goal of the project is to crate a website application + working database with ASP, so we have a functional Manager App for reserving plane tickets.
-- Language: C#
-- Framework: ASP
-- Database: Entity
+- Language: C#, JavaScript
+- Websitr Languages: HTML & CSS
+- Framework: ASP.Net
+- Database: SQLite
 
 ## Important Dates
 
