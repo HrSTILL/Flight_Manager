@@ -15,7 +15,8 @@ The goal of the project is to crate a website application + working database wit
 ## Important Dates
 
 📅 **Start Date:** September 24, 2024  
-🏁 **End Date:** 28 February, 2025
+🏁 **End Date:** February 28, 2025
+We ended it at: November 5, 2024
 
 ## Description
 The manager of flight tickets ("Flight Manager") is a system, which is used to reserve plane tickets and managing flights. It grants you the power to follow already passed flights with the 
