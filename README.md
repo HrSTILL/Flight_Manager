@@ -6,7 +6,7 @@
 </p>
 
 ## Project Overview
-The goal of the project is to crate a website application + working database with ASP, so we have a functional Manager App for reserving plane tickets.
+The idea of the project is to crate a website application + working database with ASP, so we have a functional Manager App for reserving plane tickets.
 - Language: C#, JavaScript
 - Websitr Languages: HTML & CSS
 - Framework: ASP.Net
@@ -20,7 +20,10 @@ We ended it at: November 5, 2024
 
 ## Description
 The manager of flight tickets ("Flight Manager") is a system, which is used to reserve plane tickets and managing flights. It grants you the power to follow already passed flights with the 
-information regarding the passengers that are traveling.
+information regarding the passengers that are traveling. 
+
+## Goals
+Our goal here is not to make it fancy and pretty and waste time on the design. We are here to make sure everything is functional and in the future there might be updated design.
 
 ## Group 2
 
@@ -46,5 +49,3 @@ See the [LICENSE](https://github.com/HrSTILL/Stoichev/blob/9da5130840b79c81c7f65
 *For inquiries, please reach out to the group members:*
 
 - Stiliyan Hristov: hristovstilian94@gmail.com
-- Konstantin Minchev: -
-- Kristian Raykov: -
