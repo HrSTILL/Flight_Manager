@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Flight_Manager</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/flight_manager.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/navbar.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css-login/loginbtn-main.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/button-styles.css" asp-append-version="true" /> 
+
+    @if (!string.IsNullOrEmpty(ViewBag.FooterCss))
+    {
+        <link rel="stylesheet" href="~/css/@ViewBag.FooterCss" asp-append-version="true" />
+
+    }
+    @if (ViewData["IsLoginPage"] is bool isLoginPage && isLoginPage)
+    {
+        <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+    }
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center fs-3" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/FmLogo.png" alt="Flight Manager Logo" />
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center">
+                    <ul class="navbar-nav flex-grow-1 justify-content-center" style="margin-right: 185px;">
+                        <li class="nav-item me-3 fs-4">
+                            <div class="btn">
+                                <a href="@Url.Action("Aboutus", "Home")">About Us</a>
+                            </div>
+                        </li>
+                        <li class="nav-item me-3 fs-4">
+                            <div class="btn">
+                                <a href="@Url.Action("Flights", "Home")">Flights</a>
+                            </div>
+                        </li>
+                        <li class="nav-item me-3 fs-4">
+                            <div class="btn">
+                                <a href="@Url.Action("Privacy", "Home")">Privacy</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="navbar-nav ms-auto">
+                        <a class="myButton" asp-area="" asp-controller="Home" asp-action="Login" style="margin-left: -150px;">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-5">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted mt-5 @(ViewData["IsLoginPage"] != null && ViewData["IsLoginPage"] is bool isLogin && isLogin ? "" : "footer-small")">
+        <div class="container">
+            &copy; 2024 - Flight Manager - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/togglepassword_login.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

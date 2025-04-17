@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/obj/Release/net6.0/scopedcss/projectbundle/flight_manager.bundle.scp.css",
+      "PackagePath": "staticwebassets/flight_manager.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css-admin/admindash.css",
+      "PackagePath": "staticwebassets/css-admin/admindash.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css-admin/admindashfooter.css",
+      "PackagePath": "staticwebassets/css-admin/admindashfooter.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css-admin/flights-admin.css",
+      "PackagePath": "staticwebassets/css-admin/flights-admin.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css-admin/staffinfo.css",
+      "PackagePath": "staticwebassets/css-admin/staffinfo.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css-login/login-custom-buttons.css",
+      "PackagePath": "staticwebassets/css-login/login-custom-buttons.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css-login/login.css",
+      "PackagePath": "staticwebassets/css-login/login.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css-login/loginbtn-main.css",
+      "PackagePath": "staticwebassets/css-login/loginbtn-main.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css-login/logoutbutton.css",
+      "PackagePath": "staticwebassets/css-login/logoutbutton.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css-staff/flights-staff.css",
+      "PackagePath": "staticwebassets/css-staff/flights-staff.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css-staff/staffdash.css",
+      "PackagePath": "staticwebassets/css-staff/staffdash.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css/.DS_Store",
+      "PackagePath": "staticwebassets/css/.DS_Store"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css/button-styles.css",
+      "PackagePath": "staticwebassets/css/button-styles.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css/flights-normal.css",
+      "PackagePath": "staticwebassets/css/flights-normal.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css/mainfooter.css",
+      "PackagePath": "staticwebassets/css/mainfooter.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css/navbar.css",
+      "PackagePath": "staticwebassets/css/navbar.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/images/FmLogo.png",
+      "PackagePath": "staticwebassets/images/FmLogo.png"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/images/closed-eye-login-icon.png",
+      "PackagePath": "staticwebassets/images/closed-eye-login-icon.png"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/images/opened-eye-login-icon.png",
+      "PackagePath": "staticwebassets/images/opened-eye-login-icon.png"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/images/planeairbg.png",
+      "PackagePath": "staticwebassets/images/planeairbg.png"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/js/flights-admin.js",
+      "PackagePath": "staticwebassets/js/flights-admin.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/js/flights-normal.js",
+      "PackagePath": "staticwebassets/js/flights-normal.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/js/flights-staff.js",
+      "PackagePath": "staticwebassets/js/flights-staff.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/js/login.js",
+      "PackagePath": "staticwebassets/js/login.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/js/pagination.js",
+      "PackagePath": "staticwebassets/js/pagination.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/js/reservations.js",
+      "PackagePath": "staticwebassets/js/reservations.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/js/staffinfo.js",
+      "PackagePath": "staticwebassets/js/staffinfo.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/js/togglepassword_login.js",
+      "PackagePath": "staticwebassets/js/togglepassword_login.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/stiliyanhristov/Projects/flight_manager/flight_manager/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.build.flight_manager.props",
+      "PackagePath": "build\\flight_manager.props"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.buildMultiTargeting.flight_manager.props",
+      "PackagePath": "buildMultiTargeting\\flight_manager.props"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.buildTransitive.flight_manager.props",
+      "PackagePath": "buildTransitive\\flight_manager.props"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.flight_manager.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

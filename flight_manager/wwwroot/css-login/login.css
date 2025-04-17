@@ -1,0 +1,166 @@
+﻿.login-page {
+    background-color: #e0ecfb; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+    .login-page .form-box {
+        max-width: 500px; 
+        background: #f1f7fe;
+        border-radius: 16px;
+        color: #010101; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+        padding: 40px; 
+        margin: 100px auto;
+        position: relative; 
+    }
+
+    .login-page .form {
+        display: flex;
+        flex-direction: column; 
+        padding: 32px 24px; 
+        gap: 16px; 
+        text-align: center; 
+    }
+
+    .login-page .title {
+        font-weight: bold; 
+        font-size: 1.6rem; 
+    }
+
+    .login-page .subtitle {
+        font-size: 1rem;
+        color: #666; 
+    }
+
+    .login-page .form-container {
+        border-radius: 8px; 
+        margin: 1rem 0 0.5rem; 
+        width: 100%; 
+        display: flex;
+        flex-direction: column; 
+        gap: 15px; 
+    }
+
+    .login-page .input-label {
+        margin-bottom: 5px; 
+        font-weight: bold; 
+        text-align: left; 
+    }
+
+    .login-page .input {
+        background: none; 
+        border: none; 
+        outline: none; 
+        height: 40px; 
+        width: 100%; 
+        border-bottom: 2px solid #0066ff; 
+        font-size: 0.9rem; 
+        padding: 8px 0; 
+        margin-top: 5px; 
+    }
+
+        .login-page .input + .input {
+            margin-top: 15px;
+        }
+
+    .login-page .form button {
+        background-color: #0066ff; 
+        color: #fff; 
+        border: none; 
+        border-radius: 24px; 
+        padding: 10px 16px; 
+        font-size: 1rem; 
+        font-weight: 600; 
+        cursor: pointer; 
+        transition: background-color 0.3s ease; 
+    }
+
+        .login-page .form button:hover {
+            background-color: #005ce6; /* Darker blue on hover */
+        }
+
+    .login-page .form-section {
+        padding: 16px; /* Padding inside the section */
+        font-size: 0.85rem; /* Slightly smaller font */
+        background-color: #e0ecfb; /* Light background */
+        box-shadow: rgb(0 0 0 / 8%) 0 -1px; /* Subtle shadow */
+        margin-left: 35px; /* Adjust the positioning slightly to the right */
+    }
+
+        /* Link Styling */
+        .login-page .form-section a {
+            font-weight: bold; /* Bold links */
+            color: #0066ff; /* Blue link color */
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+
+            /* Hover effect for links */
+            .login-page .form-section a:hover {
+                color: #005ce6; /* Darker blue */
+                text-decoration: underline; /* Underline on hover */
+            }
+
+    /* Password Container */
+    .login-page .password-container {
+        display: flex; /* Use flexbox for alignment */
+        align-items: center; /* Vertically center the elements */
+        position: relative; /* Positioning for icon */
+    }
+
+    /* Password Toggle Icon */
+    .login-page .password-toggle {
+        margin-left: 10px; /* Space between input and icon */
+        cursor: pointer; /* Clickable cursor */
+        width: 24px; /* Icon width */
+        height: 24px; /* Icon height */
+    }
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .login-page .form-box {
+        margin: 50px 20px; /* Adjust margins for smaller screens */
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .login-page .title {
+        font-size: 1.4rem; /* Smaller title font size on mobile */
+    }
+
+    .login-page .subtitle {
+        font-size: 0.9rem; /* Smaller subtitle font size on mobile */
+    }
+
+    .login-page .input {
+        font-size: 0.8rem; /* Smaller input font size on mobile */
+    }
+}
+
+/*Начало на Footer-а*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+
+    .footer a {
+        color: #007bff;
+        text-decoration: none;
+        margin-left: 5px;
+    }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+/* Край на Footer-а*/
+
+

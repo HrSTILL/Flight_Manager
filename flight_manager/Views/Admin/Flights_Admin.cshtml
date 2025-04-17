@@ -1,0 +1,227 @@
+﻿@model flight_manager.Models.FlightsViewModel
+
+@{
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<head>
+    <link rel="stylesheet" href="~/css-admin/flights-admin.css" asp-append-version="true" />
+</head>
+
+<h1>Flights</h1>
+
+<div class="filter-container">
+    <select class="filter-menu" id="filter" onchange="applyFilter()">
+        @{
+            string[] types = { "flight_number", "from", "to" };
+            string[] options = { "Flight Number", "From", "To" };
+            int idx = Model.Filter != null ? Array.IndexOf(types, Model.Filter) : -1;
+
+            for (int i = 0; i < options.Length; i++)
+            {
+                if (i == idx)
+                {
+                    <option value="@types[i]" selected>@options[i]</option>
+                }
+                else
+                {
+                    <option value="@types[i]">@options[i]</option>
+                }
+            }
+        }
+    </select>
+    <button class="createbtn" onclick="OpenFlightsModal()">Create</button>
+</div>
+
+@if (Model != null && Model.Flights != null && Model.Flights.Any())
+{
+    <div class="table-container">
+        <table id="flightsTable">
+            <thead>
+                <tr>
+                    <th>Flight Number</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Takeoff</th>
+                    <th>Duration</th>
+                    <th>Passengers</th>
+                    <th>Actions</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var flight in Model.Flights)
+                {
+                    <tr>
+                        <td>@flight.Flight_Number_id</td>
+                        <td>@flight.Location_From</td>
+                        <td>@flight.Location_To</td>
+                        <td>@flight.Date_Hour_Takeoff.ToString("MM/dd/yyyy HH:mm")</td>
+                        <td>@flight.FlightDuration.ToString(@"hh\:mm")</td>
+                        <td>
+                            <button onclick="togglePassengers(@flight.Flight_Number_id)">Passengers</button>
+                        </td>
+                        <td>
+                            <button onclick="toggleDetails(this)">Details</button>
+                            <button onclick="OpenEditFlightsModal('@flight.Flight_Number_id')">Edit</button>
+                            <button onclick="DeleteFlight('@flight.Flight_Number_id')">Delete</button>
+                        </td>
+                    </tr>
+
+                    <tr class="details-row" style="display:none;">
+                        <td colspan="7">
+                            <div>Full Date-Time: from @flight.Date_Hour_Takeoff.ToString("MM/dd/yyyy HH:mm") to @flight.Date_Hour_Landing.ToString("MM/dd/yyyy HH:mm")</div>
+                            <div>Pilot Name: @flight.Pilot_Name</div>
+                            <div>Plane Type: @flight.Plane_Type</div>
+                            <div>Plane Number: @flight.Plane_Number</div>
+                            <div>Economy Seats: @flight.Capacity_Normal</div>
+                            <div>First Class Seats: @flight.Capacity_First_Class</div>
+                            <div>Business Seats: @flight.Capacity_Buissness</div>
+                        </td>
+                    </tr>
+
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p>No flights found.</p>
+}
+
+@if (Model != null && Model.CurrentPage > 0 && Model.TotalPages > 0)
+{
+    <div class="pagination">
+        <button class="#" onclick="prevPage()" @(Model.CurrentPage <= 1 ? "disabled" : "")>« Prev</button>
+        <span id="pageNumber">@Model.CurrentPage of @Model.TotalPages</span>
+        <button class="#" onclick="nextPage()" @(Model.CurrentPage >= Model.TotalPages ? "disabled" : "")>Next »</button>
+
+        <label for="recordsPerPage">Records per page:</label>
+        <select class="ten-fifty" id="recordsPerPage" onchange="updateRecordsPerPage()">
+            @{
+                int[] optionsRecords = { 10, 15, 25 };
+                idx = Array.IndexOf(optionsRecords, Model.RowsPerPage);
+
+
+                for (int i = 0; i < optionsRecords.Length; i++)
+                {
+                    if (i == idx)
+                    {
+                        <option value="@optionsRecords[i]" selected>@optionsRecords[i]</option>
+                    }
+                    else
+                    {
+                        <option value="@optionsRecords[i]">@optionsRecords[i]</option>
+                    }
+                }
+            }
+        </select>
+    </div>
+}
+else
+{
+    <p>Pagination information is not available.</p>
+}
+
+
+
+<div id="customPassengerModal" class="custom-modal">
+    <div class="custom-modal-content">
+        <span class="custom-close-btn">&times;</span>
+        <h2>Passengers List</h2>
+        <div id="customPassengerListContainer">Loading passengers...</div>
+    </div>
+</div>
+
+
+<div id="createFlightModal" class="flightscreate-modal">
+    <div class="flightscreate-modal-content">
+        <span class="flightscreate-modal-close" onclick="CloseFlightsModal()">&times;</span>
+        <h2>Create Flight</h2>
+        <form id="createFlightForm" class="flightscreate-form" onsubmit="submitFlightsCreateForm(event)">
+            <label for="location_from">Location From</label>
+            <input type="text" id="location_from" name="locationFrom" required>
+
+            <label for="location_to">Location To</label>
+            <input type="text" id="location_to" name="locationTo" required>
+
+            <label for="date_hour_takeoff">Takeoff Date & Time</label>
+            <input type="datetime-local" id="date_hour_takeoff" name="dateTakeoff" required>
+
+            <label for="date_hour_landing">Landing Date & Time</label>
+            <input type="datetime-local" id="date_hour_landing" name="dateLanding" required>
+
+            <label for="plane_type">Plane Type</label>
+            <input type="text" id="plane_type" name="planeType" required>
+
+            <label for="plane_number">Plane Number</label>
+            <input type="text" id="plane_number" name="planeNumber" required>
+
+            <label for="pilot_name">Pilot Name</label>
+            <input type="text" id="pilot_name" name="pilotName" required>
+
+            <label for="capacity_normal">Capacity Normal</label>
+            <input type="number" id="capacity_normal" name="capacityNormal" required min="1">
+
+            <label for="capacity_buissness">Capacity Business</label>
+            <input type="number" id="capacity_buissness" name="capacityBusiness" required min="1">
+
+            <label for="capacity_first_class">Capacity First Class</label>
+            <input type="number" id="capacity_first_class" name="capacityFirstClass" min="0">
+
+            <button type="submit" class="confirm-button">Create Flight</button>
+        </form>
+    </div>
+</div>
+
+
+
+<div id="editFlightModal" class="flightscreate-modal">
+    <div class="flightscreate-modal-content">
+        <span class="flightscreate-modal-close" onclick="CloseEditFlightsModal()">&times;</span>
+        <h2>Edit Flight</h2>
+        <form id="editFlightForm" class="flightscreate-form" onsubmit="editFlight(event)">
+            <input type="hidden" id="edit_flight_id" name="editFlightId"> 
+
+            <label for="edit_location_from">Location From</label>
+            <input type="text" id="edit_location_from" name="editLocationFrom" required>
+
+            <label for="edit_location_to">Location To</label>
+            <input type="text" id="edit_location_to" name="editLocationTo" required>
+
+            <label for="edit_date_hour_takeoff">Takeoff Date & Time</label>
+            <input type="datetime-local" id="edit_date_hour_takeoff" name="editDateTakeoff" required>
+
+            <label for="edit_date_hour_landing">Landing Date & Time</label>
+            <input type="datetime-local" id="edit_date_hour_landing" name="editDateLanding" required>
+
+            <label for="edit_plane_type">Plane Type</label>
+            <input type="text" id="edit_plane_type" name="editPlaneType" required>
+
+            <label for="edit_plane_number">Plane Number</label>
+            <input type="text" id="edit_plane_number" name="editPlaneNumber" required>
+
+            <label for="edit_pilot_name">Pilot Name</label>
+            <input type="text" id="edit_pilot_name" name="editPilotName" required>
+
+            <label for="edit_capacity_normal">Capacity Normal</label>
+            <input type="number" id="edit_capacity_normal" name="editCapacityNormal" required min="1">
+
+            <label for="edit_capacity_buissness">Capacity Business</label>
+            <input type="number" id="edit_capacity_buissness" name="editCapacityBusiness" required min="1">
+
+            <label for="edit_capacity_first_class">Capacity First Class</label>
+            <input type="number" id="edit_capacity_first_class" name="editCapacityFirstClass" min="0">
+
+            <button type="submit" class="confirm-button" >Update Flight</button>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/flights-admin.js" asp-append-version="true"></script>
+}

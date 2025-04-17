@@ -1,0 +1,102 @@
+﻿<Properties StartupConfiguration="{DE71F77A-4254-443F-BACA-A50C75D4B100}|Default">
+  <MonoDevelop.Ide.ItemProperties.flight__manager PreferredExecutionTarget="/Applications/Opera GX.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="flight_manager/Views/Admin/AdminDashboard.cshtml">
+    <Files>
+      <File FileName="flight_manager/wwwroot/js/staffinfo.js" />
+      <File FileName="flight_manager/Views/Admin/StaffInformation.cshtml" />
+      <File FileName="flight_manager/Controllers/AdminController.cs" Line="1" Column="1" />
+      <File FileName="flight_manager/Controllers/AuthController.cs" />
+      <File FileName="flight_manager/Controllers/HomeController.cs" />
+      <File FileName="flight_manager/Controllers/ReservationsController.cs" />
+      <File FileName="flight_manager/Controllers/StaffController.cs" />
+      <File FileName="flight_manager/Migrations/20240927223101_InitialCreate.cs" />
+      <File FileName="flight_manager/Models/ErrorViewModel.cs" />
+      <File FileName="flight_manager/Models/FlightManagerDbContext.cs" />
+      <File FileName="flight_manager/Models/FlightsModel.cs" />
+      <File FileName="flight_manager/Models/FlightsModelDto.cs" />
+      <File FileName="flight_manager/Models/FlightsViewModel.cs" />
+      <File FileName="flight_manager/Models/LoginModel.cs" />
+      <File FileName="flight_manager/Models/LoginTokenModel.cs" />
+      <File FileName="flight_manager/Models/ReservationsModel.cs" />
+      <File FileName="flight_manager/Models/ReservationViewModel.cs" />
+      <File FileName="flight_manager/Models/StaffMembers.cs" />
+      <File FileName="flight_manager/Models/StaffModelDto.cs" />
+      <File FileName="flight_manager/Models/StaffViewModel.cs" />
+      <File FileName="flight_manager/Properties/launchSettings.json" />
+      <File FileName="flight_manager/Services/AuthService.cs" />
+      <File FileName="flight_manager/Views/Admin/AdminDashboard.cshtml" Line="1" Column="1" />
+      <File FileName="flight_manager/Views/Admin/Error.cshtml" Line="1" Column="1" />
+      <File FileName="flight_manager/Views/Admin/Flights_Admin.cshtml" />
+      <File FileName="flight_manager/Views/Admin/Reservations_Admin.cshtml" />
+      <File FileName="flight_manager/Views/Home/Aboutus.cshtml" />
+      <File FileName="flight_manager/Views/Home/Flights.cshtml" />
+      <File FileName="flight_manager/Views/Home/Index.cshtml" />
+      <File FileName="flight_manager/Views/Home/Login.cshtml" />
+      <File FileName="flight_manager/Views/Home/Privacy.cshtml" />
+      <File FileName="flight_manager/Views/Shared/_Layout.cshtml" />
+      <File FileName="flight_manager/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="flight_manager/Views/Shared/AdminLayout.cshtml" />
+      <File FileName="flight_manager/Views/Shared/Error.cshtml" />
+      <File FileName="flight_manager/Views/Shared/Flights_Normal_Layout.cshtml" />
+      <File FileName="flight_manager/Views/Shared/LoginLayout.cshtml" />
+      <File FileName="flight_manager/Views/Shared/StaffLayout.cshtml" />
+      <File FileName="flight_manager/Views/Staff/Flights_Staff.cshtml" />
+      <File FileName="flight_manager/Views/Staff/Reservations_Staff.cshtml" />
+      <File FileName="flight_manager/Views/Staff/StaffDashboard.cshtml" />
+      <File FileName="flight_manager/Views/_ViewImports.cshtml" />
+      <File FileName="flight_manager/Views/_ViewStart.cshtml" />
+      <File FileName="flight_manager/wwwroot/css/aboutus.css" />
+      <File FileName="flight_manager/wwwroot/css/button-styles.css" />
+      <File FileName="flight_manager/wwwroot/css/flights-normal.css" />
+      <File FileName="flight_manager/wwwroot/css/navbar.css" />
+      <File FileName="flight_manager/wwwroot/css/privacy.css" />
+      <File FileName="flight_manager/wwwroot/css/site.css" />
+      <File FileName="flight_manager/wwwroot/css/welcome.css" />
+      <File FileName="flight_manager/wwwroot/css-admin/admindash.css" />
+      <File FileName="flight_manager/wwwroot/css-admin/admindashfooter.css" />
+      <File FileName="flight_manager/wwwroot/css-admin/flights-admin.css" />
+      <File FileName="flight_manager/wwwroot/css-admin/staffinfo.css" />
+      <File FileName="flight_manager/wwwroot/css-admin/reservations-admin.css" />
+      <File FileName="flight_manager/wwwroot/css-login/login.css" />
+      <File FileName="flight_manager/wwwroot/css-login/logoutbutton.css" />
+      <File FileName="flight_manager/wwwroot/css-login/loginbtn-main.css" />
+      <File FileName="flight_manager/wwwroot/css-login/login-custom-buttons.css" />
+      <File FileName="flight_manager/wwwroot/js/login.js" />
+      <File FileName="flight_manager/wwwroot/js/togglepassword_login.js" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="flight_manager" expanded="True">
+            <Node name="flight_manager" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="AdminDashboard.cshtml" selected="True" />
+                </Node>
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Staff" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="css-admin" expanded="True" />
+                <Node name="css-login" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

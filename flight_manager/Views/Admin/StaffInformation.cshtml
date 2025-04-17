@@ -1,0 +1,194 @@
+﻿@model flight_manager.Models.StaffViewModel
+
+@{
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css-admin/staffinfo.css" asp-append-version="true" />
+</head>
+
+<h1>Staff Information</h1>
+
+<div class="filter-container">
+    <select class="filter-menu" id="filter" onchange="applyFilter()">
+        @{
+            string[] types = { "email", "username", "firstname", "lastname" };
+            string[] options = { "Email", "Username", "First Name", "Last Name" };
+            int idx = Array.IndexOf(types, Model.Filter);
+
+            for (int i = 0; i < options.Length; i++)
+            {
+                if (i == idx)
+                {
+                    <option value="@types[i]" selected>@options[i]</option>
+                }
+                else
+                {
+                    <option value="@types[i]">@options[i]</option>
+                }
+            }
+        }
+    </select>
+    <button class="createbtn" onclick="OpenCreateModal(this)">Create</button>
+</div>
+
+@if (Model != null && Model.StaffMembers != null && Model.StaffMembers.Any())
+{
+    <table id="staffTable">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var staff in Model.StaffMembers)
+            {
+                <tr>
+                    <td>@staff.Rank</td>
+                    <td>@staff.FirstName</td>
+                    <td>@staff.LastName</td>
+                    <td>@staff.Username</td>
+                    <td>@staff.Email</td>
+                    <td>
+                        <button onclick="toggleDetails(this)">Details</button>
+                        <button onclick="OpenEditModal('@staff.Id')">Edit</button>
+                        <button onclick="deleteStaffMember('@staff.Id')">Delete</button>
+                    </td>
+                </tr>
+
+                <tr class="details-row" style="display:none;">
+                    <td colspan="6">
+                        <div>EGN: @staff.EGN</div>
+                        <div>Phone: @staff.PhoneNumber</div>
+                        <div>Address: @staff.Address</div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No staff members found.</p>
+}
+
+@if (Model != null && Model.CurrentPage > 0 && Model.TotalPages > 0)
+{
+    <div class="pagination">
+        <button class="#" onclick="prevPage()" @(Model.CurrentPage <= 1 ? "disabled" : "")>« Prev</button>
+        <span id="pageNumber">@Model.CurrentPage of @Model.TotalPages</span>
+        <button class="#" onclick="nextPage()" @(Model.CurrentPage >= Model.TotalPages ? "disabled" : "")>Next »</button>
+
+        <label for="recordsPerPage">Records per page:</label>
+        <select class="ten-fifty" id="recordsPerPage" onchange="updateRecordsPerPage()">
+            @{
+                int[] optionsRecords = { 10, 25, 50 };
+                idx = Array.IndexOf(optionsRecords, Model.RowsPerPage);
+
+                for (int i = 0; i < optionsRecords.Length; i++)
+                {
+                    if (i == idx)
+                    {
+                        <option value="@optionsRecords[i]" selected>@optionsRecords[i]</option>
+                    }
+                    else
+                    {
+                        <option value="@optionsRecords[i]">@optionsRecords[i]</option>
+                    }
+                }
+            }
+        </select>
+    </div>
+}
+else
+{
+    <p>Pagination information is not available.</p>
+}
+
+@* С това създаваме съответния служител. *@
+
+<div class="create-modal" id="createStaffModal" style="display: none;">
+    <div class="create-modal-content">
+        <span class="close" onclick="CloseCreateModal()">&times;</span>
+        <h2>Create Staff Member</h2>
+        <form id="createStaffForm" onsubmit="submitCreateForm(event)">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="EGN">EGN</label>
+            <input type="text" id="EGN" name="EGN" required>
+
+            <label for="phoneNumber">Phone Number</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" required>
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="rank">Rank</label>
+            <select id="rank" name="rank" required>
+                <option value="staff">Staff</option>
+                <option value="admin">Admin</option>
+            </select>
+
+            <button type="submit" class="confirm-button">Confirm</button>
+        </form>
+    </div>
+</div>
+
+
+@* С това редактираме съответния staff. *@
+
+<div class="edit-modal" id="editStaffModal" style="display: none;">
+    <div class="edit-modal-content">
+        <span class="close" onclick="CloseEditModal()">&times;</span>
+        <h2>Edit Staff Member</h2>
+        <form id="editStaffForm" onsubmit="editStaffMember(event)">
+            <input type="hidden" id="editStaffId">
+            <label for="editUsername">Username</label>
+            <input type="text" id="editUsername" name="username" required>
+            <label for="editPassword">Password</label>
+            <input type="text" id="editPassword" name="password" required>
+            <label for="editFirstName">First Name</label>
+            <input type="text" id="editFirstName" name="firstName" required>
+            <label for="editLastName">Last Name</label>
+            <input type="text" id="editLastName" name="lastName" required>
+            <label for="editEmail">Email</label>
+            <input type="email" id="editEmail" name="email" required>
+            <label for="editEGN">EGN</label>
+            <input type="text" id="editEGN" name="egn" required>
+            <label for="editPhoneNumber">Phone Number</label>
+            <input type="text" id="editPhoneNumber" name="phoneNumber" required>
+            <label for="editAddress">Address</label>
+            <input type="text" id="editAddress" name="address" required>
+            <label for="editRank">Rank</label>
+            <select id="editRank" name="rank" required>
+                <option value="staff">Staff</option>
+                <option value="admin">Admin</option>
+            </select>
+            <button type="submit" class="confirm-button">Save Changes</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/pagination.js"></script>
+    <script src="~/js/staffinfo.js" asp-append-version="true"></script>
+}

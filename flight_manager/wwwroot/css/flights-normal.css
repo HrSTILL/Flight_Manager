@@ -1,0 +1,267 @@
+﻿/* Modal Background */
+.create-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Hide scrollbars */
+    background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+    backdrop-filter:blur(30px);
+}
+
+/* Modal Content */
+.create-modal-content {
+    background-color: rgba(255, 255, 255, 0.9); /* Light background with opacity for consistency */
+    margin: 5% auto; /* Centered with 5% from the top */
+    padding: 30px; /* Increased padding */
+    border: 1px solid #888;
+    width: 90%; /* Wider width for better visibility */
+    max-width: 800px; /* Increased maximum width */
+    height: 80%; /* Set a height to control size */
+    max-height: 80%; /* Max height to keep it proportional */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+/* Close Button */
+.create-modal .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .create-modal .close:hover,
+    .create-modal .close:focus {
+        color: black; /* Dark color on hover */
+        text-decoration: none;
+        cursor: pointer; /* Pointer cursor on hover */
+    }
+
+/* Form Field Styles Inside the Modal */
+.create-modal label {
+    display: block; /* Each label on a new line */
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Dark text for labels */
+}
+
+.create-modal input[type="text"],
+.create-modal input[type="email"],
+.create-modal input[type="password"],
+.create-modal select {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in total width */
+}
+
+/* Button Styles for Modal */
+.create-modal button {
+    background-color: #4CAF50; /* Green */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding for buttons */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+    .create-modal button:hover {
+        background-color: #45a049; /* Darker green on hover */
+    }
+
+/* Confirm Button Specific Styles */
+.create-modal .confirm-button {
+    background-color: #2db2ff; /* Blue */
+}
+
+    .create-modal .confirm-button:hover {
+        background-color: #007B9E; /* Darker blue on hover */
+    }
+
+/* Lock scroll on body when modal is open */
+.modal-open {
+    overflow: hidden;
+}
+
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2db2ff; /* Background color for the body */
+    font-family: sans-serif; /* Default font */
+}
+
+h1 {
+    text-align: center; /* Centered heading */
+    color: white; /* White text */
+    font-weight: bold; /* Bold font */
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full width */
+    margin: 20px auto; /* Centered margin */
+    border-collapse: collapse; /* Collapse borders */
+    backdrop-filter: blur(10px); /* Blur effect */
+    table-layout: fixed; /* Fixed layout for cells */
+}
+
+/* Table Header and Cell Styles */
+th, td {
+    padding: 10px; /* Padding inside cells */
+    border: 1px solid #ddd; /* Light gray border */
+    color: whitesmoke; /* Light text */
+    font-weight: bold; /* Bold font */
+    text-align: center; /* Centered text */
+    word-wrap: break-word; /* Word wrapping */
+}
+
+.filter-menu {
+    background: rgba(255, 255, 255, 0.05); /* Very light transparent background */
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px); /* Adds a blurred effect to the background */
+    border-radius: 2px;
+    border-color: white;
+    color: white;
+}
+
+.ten-fifty {
+    background: rgba(255, 255, 255, 0.05); /* Very light transparent background */
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px); /* Adds a blurred effect to the background */
+    border-radius: 2px;
+    border-color: white;
+    color: white;
+    margin-left: 10px;
+}
+
+/* Pagination Styles */
+.pagination {
+    margin-top: 10px; /* Space above pagination */
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items */
+    color: white; /* White text */
+}
+
+/* Button Styles */
+button {
+    padding: 5px 10px; /* Padding inside buttons */
+    margin: 0 5px; /* Margin around buttons */
+    background-color: rgba(255, 255, 255, 0.2); /* Background color with transparency */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 3px; /* Rounded corners */
+    backdrop-filter: blur(5px); /* Blur effect */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+    button:hover {
+        background-color: rgba(255, 255, 255, 0.3); /* Darker background on hover */
+    }
+
+/* Details Row Styles */
+.details-row {
+    backdrop-filter: blur(3px); /* Blur effect for details row */
+}
+
+    .details-row td {
+        padding: 15px; /* Padding inside details row cells */
+        text-align: left; /* Left-aligned text */
+    }
+
+/* Flex Container Styles */
+.container {
+    display: flex; /* Flexbox layout */
+    background-color: transparent; /* Transparent background */
+}
+
+    /* Pagination Item Styles in Container */
+    .container .pagination {
+        position: relative; /* Relative positioning */
+        height: 60px; /* Fixed height */
+        background: rgba(255, 255, 255, 0.05); /* Background color with transparency */
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3); /* Shadow effect */
+        display: flex; /* Flexbox layout */
+        align-items: center; /* Center items */
+        justify-content: center; /* Center items */
+        backdrop-filter: blur(10px); /* Blur effect */
+    }
+
+        /* Pagination List Item Styles */
+        .container .pagination li {
+            list-style-type: none; /* No bullet points */
+            display: inline-block; /* Inline block for items */
+        }
+
+            /* Pagination Link Styles */
+            .container .pagination li a {
+                position: relative; /* Relative positioning */
+                padding: 20px 25px; /* Padding inside links */
+                text-decoration: none; /* No underline */
+                color: #fff; /* White text */
+                font-weight: 500; /* Semi-bold font */
+                transition: background-color 0.3s ease; /* Transition for hover effect */
+            }
+
+                .container .pagination li a:hover,
+                .container .pagination li.active a {
+                    background: rgba(255, 255, 255, 0.2); /* Background color on hover */
+                }
+
+/* Ensure Buttons and Pagination Items are Visible and Interactive */
+button {
+    background-color: rgba(255, 255, 255, 0.2); /* Background color */
+    backdrop-filter: blur(5px); /* Blur effect */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+
+.details-button-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between buttons */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Ensure it takes full width of the table cell */
+}
+
+    .reservation-btn, /* Target the reservation button */
+    .details-button-container button { /* General styles for buttons */
+        max-width: 100%; /* Prevent overflow */
+        padding: 5px 10px; /* Adjust padding */
+        box-sizing: border-box; /* Ensure padding is included in width */
+        margin: 0; /* Reset margins to avoid overflow */
+    }
+
+
+/* Adjustments for the button */
+.create-modal .confirm-button {
+    background-color: #2db2ff; /* Blue background */
+    padding: 10px 20px; /* Adjust padding for a better look */
+}
+
+.error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}

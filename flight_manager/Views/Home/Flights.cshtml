@@ -1,0 +1,172 @@
+﻿    @model flight_manager.Models.FlightsViewModel
+
+@{
+    Layout = "~/Views/Shared/Flights_Normal_Layout.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/flights-normal.css" asp-append-version="true" />
+</head>
+
+<h1>Flights</h1>
+
+<div class="filter-container">
+    <select class="filter-menu" id="filter" onchange="applyFilter()">
+        @{
+            string[] types = { "flight_number", "from", "to" };
+            string[] options = { "Flight Number", "From", "To" };
+            int idx = Model.Filter != null ? Array.IndexOf(types, Model.Filter) : -1;
+
+            for (int i = 0; i < options.Length; i++)
+            {
+                if (i == idx)
+                {
+                    <option value="@types[i]" selected>@options[i]</option>
+                }
+                else
+                {
+                    <option value="@types[i]">@options[i]</option>
+                }
+            }
+        }
+    </select>
+</div>
+
+@if (Model != null && Model.Flights != null && Model.Flights.Any())
+{
+    <div class="table-container">
+        <table id="flightsTable">
+            <thead>
+                <tr>
+                    <th>Flight Number</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Takeoff</th>
+                    <th>Duration</th>
+                    <th>Details</th>
+                    <th>Reserve</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var flight in Model.Flights)
+                {
+                    <tr>
+                        <td>@flight.Flight_Number_id</td>
+                        <td>@flight.Location_From</td>
+                        <td>@flight.Location_To</td>
+                        <td>@flight.Date_Hour_Takeoff.ToString("MM/dd/yyyy HH:mm")</td>
+                        <td>@flight.FlightDuration.ToString(@"hh\:mm")</td>
+                        <td>
+                            <button onclick="toggleDetails(this)">Details</button>
+                        </td>
+                        <td>
+                            <button class="reservation-btn" onclick="openReservationPopup(@flight.Flight_Number_id)">Reserve</button>
+                        </td>
+                    </tr>
+
+                    <tr class="details-row" style="display:none;">
+                        <td colspan="7">
+                            <div>Full Date-Time: from @flight.Date_Hour_Takeoff.ToString("MM/dd/yyyy HH:mm") to @flight.Date_Hour_Landing.ToString("MM/dd/yyyy HH:mm")</div>
+                            <div>Flight Duration: @flight.FlightDuration.ToString(@"hh\:mm")</div>
+                            <div>Pilot Name: @flight.Pilot_Name</div>
+                            <div>Plane Type: @flight.Plane_Type</div>
+                            <div>Plane Number: @flight.Plane_Number</div>
+                            <div>Economy Seats: @flight.Capacity_Buissness</div>
+                            <div>First Class Seats: @flight.Capacity_First_Class</div>
+                            <div>Business Seats: @flight.Capacity_Buissness</div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p>No flights found.</p>
+}
+
+@if (Model != null && Model.CurrentPage > 0 && Model.TotalPages > 0)
+{
+    <div class="pagination">
+        <button class="#" onclick="prevPage()" @(Model.CurrentPage <= 1 ? "disabled" : "")>« Prev</button>
+        <span id="pageNumber">@Model.CurrentPage of @Model.TotalPages</span>
+        <button class="#" onclick="nextPage()" @(Model.CurrentPage >= Model.TotalPages ? "disabled" : "")>Next »</button>
+
+        <label for="recordsPerPage">Records per page:</label>
+        <select class="ten-fifty" id="recordsPerPage" onchange="updateRecordsPerPage()">
+            @{
+                int[] optionsRecords = { 10, 15, 20 };
+                idx = Array.IndexOf(optionsRecords, Model.RowsPerPage);
+
+
+                for (int i = 0; i < optionsRecords.Length; i++)
+                {
+                    if (i == idx)
+                    {
+                        <option value="@optionsRecords[i]" selected>@optionsRecords[i]</option>
+                    }
+                    else
+                    {
+                        <option value="@optionsRecords[i]">@optionsRecords[i]</option>
+                    }
+                }
+            }
+        </select>
+    </div>
+}
+else
+{
+    <p>Pagination information is not available.</p>
+}
+
+<div id="reservationModal" class="create-modal">
+    <div class="create-modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Reservation</h2>
+        <p id="flightInfo"></p>
+
+        <form id="reservationForm" method="post" action="/Reservations/CreateReservation">
+            <input type="hidden" id="flightId" name="Flight_Number_id" />
+
+            <label for="numTickets">How many tickets?</label>
+            <select id="numTickets" name="numTickets" onchange="generateGuestForms()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+            <h3>Seat Class</h3>
+            <select id="seatClass" name="TicketType">
+                <option value="economy">Economy</option>
+                <option value="firstclass">First Class</option>
+                <option value="buissnes">Business</option>
+            </select>
+
+            <h3>Leader Information</h3>
+            <input type="text" placeholder="First Name" id="leaderFirstName" name="FirstName" required />
+            <input type="text" placeholder="Middle Name" id="leaderMiddleName" name="MiddleName" />
+            <input type="text" placeholder="Last Name" id="leaderLastName" name="LastName" required />
+            <input type="text" placeholder="EGN" id="leaderEGN" name="EGN" required />
+            <input type="text" placeholder="Phone Number" id="leaderPhone" name="PhoneNumber" required />
+            <input type="text" placeholder="Nationality" id="leaderNationality" name="Nationality" required />
+            <input type="email" placeholder="Email" id="leaderEmail" name="Email" required />
+
+            <div id="guestForms"></div>
+
+            <button type="button" class="confirm-button" onclick="submitReservation()">Confirm</button>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/flights-normal.js" asp-append-version="true"></script>
+}

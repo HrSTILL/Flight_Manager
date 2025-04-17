@@ -1,0 +1,49 @@
+﻿/* Body Styling */
+body {
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for the body */
+    flex-direction: column; /* Stack body items vertically */
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Content Area Styling */
+.content {
+    flex: 1; /* Allow the content area to grow and take up available space */
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Stack children vertically */
+    min-height: calc(100vh - 80px); /* Adjust based on footer height (e.g., 80px for footer + 20px padding) */
+}
+
+.fixed-footer {
+    background-color: #ffffff; /* Footer background color */
+    color: #000000; /* Text color */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 80px; /* Set a fixed height for the footer */
+    width: 100%; /* Ensure the footer spans the full width */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    position: relative; /* Use relative positioning */
+}
+
+
+
+    /* Smaller Footer Styling */
+    .fixed-footer.footer-small {
+        padding: 5px; /* Reduced padding */
+        font-size: 0.85rem; /* Smaller font size */
+    }
+
+/* Optional Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .fixed-footer {
+        padding: 8px; /* Reduce padding on smaller screens */
+        font-size: 0.9rem; /* Smaller font size */
+    }
+
+        .fixed-footer.footer-small {
+            padding: 5px; /* Further reduce padding for small screens */
+            font-size: 0.8rem; /* Smaller font size for small screens */
+        }
+}
+

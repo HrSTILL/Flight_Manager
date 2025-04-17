@@ -1,0 +1,289 @@
+﻿table {
+    width: 100%;
+    border-collapse: collapse;
+    backdrop-filter: blur(10px);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2db2ff;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.filter-container {
+    margin-bottom: 0px;
+}
+
+.filter-menu {
+    background: rgba(255, 255, 255, 0.05); 
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px); 
+    border-radius: 2px;
+    border-color: white;
+    color: white;
+}
+
+/* Create button */
+.createbtn {
+    margin-top: -30px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 1225px;
+}
+
+/* Pagination styles */
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.ten-fifty {
+    background: rgba(255, 255, 255, 0.05); /* Very light transparent background */
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px); /* Adds a blurred effect to the background */
+    border-radius: 2px;
+    border-color: white;
+    color: white;
+    margin-left: 10px;
+}
+
+/* Button styles with transparency and blur */
+button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent white */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    backdrop-filter: blur(5px); /* Blurred effect */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+    /* Hover effect for buttons */
+    button:hover {
+        background-color: rgba(255, 255, 255, 0.3); /* Slightly more opaque on hover */
+    }
+
+/* Details row styles */
+.details-row {
+    backdrop-filter: blur(3px);
+}
+
+    .details-row td {
+        padding: 15px;
+    }
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Container with transparent background */
+.container {
+    display: flex;
+    background-color: transparent; /* Transparent container */
+}
+
+    .container .pagination {
+        position: relative;
+        height: 60px;
+        background: rgba(255, 255, 255, 0.05); /* Very light transparent background */
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(10px); /* Adds a blurred effect to the background */
+        border-radius: 2px;
+    }
+
+        /* Pagination list item styles */
+        .container .pagination li {
+            list-style-type: none;
+            display: inline-block;
+        }
+
+            /* Pagination links */
+            .container .pagination li a {
+                position: relative;
+                padding: 20px 25px;
+                text-decoration: none;
+                color: #fff; /* White text */
+                font-weight: 500;
+                transition: background-color 0.3s ease;
+            }
+
+                /* Hover and active states for pagination links */
+                .container .pagination li a:hover,
+                .container .pagination li.active a {
+                    background: rgba(255, 255, 255, 0.2); /* Hover effect with transparent background */
+                }
+
+/* Ensuring the buttons and pagination items are visible and interactive */
+button {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px); /* Blurred buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.custom-modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(30px);
+}
+
+.custom-modal-content {
+    background-color: transparent;
+    color: white;
+    margin: 0 auto; 
+    padding: 25px;
+    width: 70%; 
+    max-height: 80%; 
+    overflow-y: auto; 
+}
+
+.custom-close-btn {
+    color: whitesmoke;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .custom-close-btn:hover,
+    .custom-close-btn:focus {
+        color: #333;
+        cursor: pointer;
+    }
+
+
+
+/* Modal Background */
+.flightscreate-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+    backdrop-filter: blur(30px);
+}
+
+/* Modal Content */
+.flightscreate-modal-content {
+    background-color: transparent;
+    margin: 0 auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 2px solid white;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 500px; /* Max width */
+    border-radius: 5px; /* Rounded corners */
+    color: whitesmoke;
+}
+
+/* Close Button */
+.flightscreate-modal-close {
+    color: whitesmoke;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .flightscreate-modal-close:hover,
+    .flightscreate-modal-close:focus {
+        color: #333;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* Create Button */
+button.flightscreate-createbtn {
+    background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+    width: 100%;
+}
+
+    button.flightscreate-createbtn:hover {
+        background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+    }
+
+/* Form Styles */
+.flightscreate-form input[type="text"],
+.flightscreate-form input[type="number"],
+.flightscreate-form input[type="datetime-local"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.flightscreate-form button[type="submit"] {
+    width: 100%;
+    background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .flightscreate-form button[type="submit"]:hover {
+        background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+    }
+
+
+.modal-open {
+    overflow: hidden;
+}
+
+.custom-modal-content, .flightscreate-modal-content {
+    overflow-y: unset; 
+}
+
+
+.error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}

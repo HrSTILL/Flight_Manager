@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Views/Shared/LoginLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="~/css-login/login.css" asp-append-version="true" />
+</head>
+<body class="login-page">
+    <div class="login-container">
+        <div class="form-box">
+            <form class="form" id="loginForm">
+                <span class="title">Login</span>
+                <span class="subtitle">Access your staff account with your credentials.</span>
+
+                <div class="form-container">
+                    <label for="username" class="input-label"><strong>Username:</strong></label>
+                    <input type="text" class="input" id="username" name="username" placeholder="Enter your username." required>
+
+                    <label for="password" class="input-label"><strong>Password:</strong></label>
+                    <div class="password-container">
+                        <input type="password" class="input" id="password" name="password" placeholder="Enter your password." required>
+                        <img src="../images/opened-eye-login-icon.png" id="toggleIcon" class="password-toggle" style="cursor:pointer;" alt="Toggle Password Visibility">
+                    </div>
+                </div>
+
+                <button type="submit">Login</button>
+            </form>
+            <div class="form-section">
+                <p>Only staff members of the company have access to login.</p>
+            </div>
+            <div id="message" class="message"></div>
+        </div>
+    </div>
+
+    <script src="~/js/togglepassword_login.js" asp-append-version="true"></script>
+    <script src="~/js/login.js" asp-append-version="true"></script> 
+</body>
+</html>

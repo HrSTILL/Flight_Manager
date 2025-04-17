@@ -1,0 +1,695 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\staff\\staffdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\staff\\staffdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\staff\\reservations_staff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\staff\\reservations_staff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\staff\\flights_staff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\staff\\flights_staff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\shared\\flights_normal_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\shared\\flights_normal_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\shared\\stafflayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\shared\\stafflayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\shared\\loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\shared\\loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\home\\flights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\home\\flights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\admin\\staffinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\admin\\staffinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\admin\\reservations_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\admin\\reservations_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\admin\\flights_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\admin\\flights_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\admin\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\admin\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\models\\staffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\models\\staffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\models\\staffmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\models\\staffmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\models\\staffmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\models\\staffmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\models\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\models\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\models\\reservationsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\models\\reservationsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\models\\logintokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\models\\logintokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\models\\flightsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\models\\flightsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\models\\flightsmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\models\\flightsmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\models\\flightsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\models\\flightsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\models\\flightmanagerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\models\\flightmanagerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|d:\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\git uplods\\flight-manager\\flight_manager\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE71F77A-4254-443F-BACA-A50C75D4B100}|flight_manager\\flight_manager.csproj|solutionrelative:flight_manager\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Program.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Program.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Program.cs",
+              "RelativeToolTip": "flight_manager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:32:04.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StaffDashboard.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Staff\\StaffDashboard.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Staff\\StaffDashboard.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Staff\\StaffDashboard.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Staff\\StaffDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:54.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reservations_Staff.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Staff\\Reservations_Staff.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Staff\\Reservations_Staff.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Staff\\Reservations_Staff.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Staff\\Reservations_Staff.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:53.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Flights_Staff.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Staff\\Flights_Staff.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Staff\\Flights_Staff.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Staff\\Flights_Staff.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Staff\\Flights_Staff.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:51.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StaffLayout.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\StaffLayout.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Shared\\StaffLayout.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\StaffLayout.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Shared\\StaffLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:43.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginLayout.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Shared\\LoginLayout.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\LoginLayout.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Shared\\LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:41.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Flights_Normal_Layout.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\Flights_Normal_Layout.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Shared\\Flights_Normal_Layout.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\Flights_Normal_Layout.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Shared\\Flights_Normal_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:40.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:39.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Shared\\AdminLayout.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Shared\\AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:37.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:36.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:35.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:32.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:31.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:29.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Flights.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Home\\Flights.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Home\\Flights.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Home\\Flights.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Home\\Flights.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:27.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Aboutus.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Home\\Aboutus.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Home\\Aboutus.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Home\\Aboutus.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Home\\Aboutus.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:26.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StaffInformation.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Admin\\StaffInformation.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Admin\\StaffInformation.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Admin\\StaffInformation.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Admin\\StaffInformation.cshtml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:19.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Reservations_Admin.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Admin\\Reservations_Admin.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Admin\\Reservations_Admin.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Admin\\Reservations_Admin.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Admin\\Reservations_Admin.cshtml",
+              "ViewState": "AgIAAE8AAAAAQU7LURAjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:16.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Flights_Admin.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Admin\\Flights_Admin.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Admin\\Flights_Admin.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Admin\\Flights_Admin.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Admin\\Flights_Admin.cshtml",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:12.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Admin\\Error.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Admin\\Error.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Admin\\Error.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Admin\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:11.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "flight_manager\\Views\\Admin\\AdminDashboard.cshtml",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeToolTip": "flight_manager\\Views\\Admin\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T14:31:01.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Services\\AuthService.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Services\\AuthService.cs",
+              "RelativeToolTip": "flight_manager\\Services\\AuthService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:56.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StaffViewModel.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\StaffViewModel.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Models\\StaffViewModel.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\StaffViewModel.cs",
+              "RelativeToolTip": "flight_manager\\Models\\StaffViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:53.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StaffModelDto.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\StaffModelDto.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Models\\StaffModelDto.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\StaffModelDto.cs",
+              "RelativeToolTip": "flight_manager\\Models\\StaffModelDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:52.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StaffMembers.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\StaffMembers.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Models\\StaffMembers.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\StaffMembers.cs",
+              "RelativeToolTip": "flight_manager\\Models\\StaffMembers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:51.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReservationViewModel.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\ReservationViewModel.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Models\\ReservationViewModel.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\ReservationViewModel.cs",
+              "RelativeToolTip": "flight_manager\\Models\\ReservationViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:48.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ReservationsModel.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\ReservationsModel.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Models\\ReservationsModel.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\ReservationsModel.cs",
+              "RelativeToolTip": "flight_manager\\Models\\ReservationsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:47.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginTokenModel.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\LoginTokenModel.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Models\\LoginTokenModel.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\LoginTokenModel.cs",
+              "RelativeToolTip": "flight_manager\\Models\\LoginTokenModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:47.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\LoginModel.cs",
+              "RelativeToolTip": "flight_manager\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:46.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FlightsModelDto.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\FlightsModelDto.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Models\\FlightsModelDto.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\FlightsModelDto.cs",
+              "RelativeToolTip": "flight_manager\\Models\\FlightsModelDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:44.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FlightsModel.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\FlightsModel.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Models\\FlightsModel.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\FlightsModel.cs",
+              "RelativeToolTip": "flight_manager\\Models\\FlightsModel.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:42.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FlightManagerDbContext.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\FlightManagerDbContext.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Models\\FlightManagerDbContext.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\FlightManagerDbContext.cs",
+              "RelativeToolTip": "flight_manager\\Models\\FlightManagerDbContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:40.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "flight_manager\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:40.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Controllers\\StaffController.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "flight_manager\\Controllers\\StaffController.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAmwBMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:27.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Controllers\\ReservationsController.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "flight_manager\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:25.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "flight_manager\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:22.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "flight_manager\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAD8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:14.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FlightsViewModel.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\FlightsViewModel.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Models\\FlightsViewModel.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Models\\FlightsViewModel.cs",
+              "RelativeToolTip": "flight_manager\\Models\\FlightsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:18:38.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "flight_manager\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Git Uplods\\Flight-Manager\\flight_manager\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "flight_manager\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAKABAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:30:06.182Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

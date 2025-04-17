@@ -1,0 +1,102 @@
+﻿@model flight_manager.ViewModels.ReservationsViewPageModel
+
+@{
+    Layout = "~/Views/Shared/StaffLayout.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css-staff/reservations-staff.css" asp-append-version="true" />
+</head>
+
+<h1>Reservations</h1>
+
+<div class="filter-container">
+    <select class="filter-menu" id="filter" onchange="applyFilter()">
+        @{
+            string[] types = { "reservation_id", "ticket_type" };
+            string[] options = { "Reservation ID", "Ticket Type" };
+            int idx = Model.Filter != null ? Array.IndexOf(types, Model.Filter) : -1;
+
+            for (int i = 0; i < options.Length; i++)
+            {
+                if (i == idx)
+                {
+                    <option value="@types[i]" selected>@options[i]</option>
+                }
+                else
+                {
+                    <option value="@types[i]">@options[i]</option>
+                }
+            }
+        }
+    </select>
+</div>
+<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Reservation ID</th>
+                <th>Leader Name</th>
+                <th>EGN</th>
+                <th>Ticket Type</th>
+                <th>Flight Number ID</th>
+                <th>Reservation Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var reservation in Model.Reservations)
+            {
+                <tr>
+                    <td>@reservation.ReservationId</td>
+                    <td>@reservation.FirstName @reservation.MiddleName @reservation.LastName</td>
+                    <td>@reservation.EGN</td>
+                    <td>@reservation.TicketType</td>
+                    <td>@reservation.Flight_Number_id</td>
+                    <td>
+                        <button onclick="togglePassengers('@reservation.Reservation_Group')">Reservation Details</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+@if (Model != null && Model.CurrentPage > 0 && Model.TotalPages > 0)
+{
+    <div class="pagination">
+        <button class="#" onclick="prevPage()" @(Model.CurrentPage <= 1 ? "disabled" : "")>« Prev</button>
+        <span id="pageNumber">@Model.CurrentPage of @Model.TotalPages</span>
+        <button class="#" onclick="nextPage()" @(Model.CurrentPage >= Model.TotalPages ? "disabled" : "")>Next »</button>
+
+        <label for="recordsPerPage">Records per page:</label>
+        <select class="ten-fifty" id="recordsPerPage" onchange="updateRecordsPerPage()">
+            @{
+                int[] optionsRecords = { 5, 10, 15 };
+                idx = Array.IndexOf(optionsRecords, Model.RowsPerPage);
+
+                for (int i = 0; i < optionsRecords.Length; i++)
+                {
+                    if (i == idx)
+                    {
+                        <option value="@optionsRecords[i]" selected>@optionsRecords[i]</option>
+                    }
+                    else
+                    {
+                        <option value="@optionsRecords[i]">@optionsRecords[i]</option>
+                    }
+                }
+            }
+        </select>
+    </div>
+}
+
+<div id="customPassengerModal" class="custom-modal">
+    <div class="custom-modal-content">
+        <span class="custom-close-btn">&times;</span>
+        <h2>People for current Reservation</h2>
+        <div id="customPassengerListContainer">Loading passengers...</div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/reservations_staff.js"></script>
+}

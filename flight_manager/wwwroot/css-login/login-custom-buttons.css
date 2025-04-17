@@ -1,0 +1,105 @@
+﻿/* Navbar Styles */
+.navbar-nav {
+    justify-content: flex-start; /* Align buttons to the left */
+}
+
+/* Button container */
+.btn {
+    position: relative;
+    width: 200px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin: 0 10px; /* Add spacing between buttons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent; /* Make the button background transparent */
+    border-radius: 30px; /* Rounded button shape */
+    transition: 0.5s ease; /* Smooth transitions */
+}
+
+    /* Anchor tag inside the button */
+    .btn a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.1); /* Transparent background */
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Shadow around the button */
+        border-radius: inherit; /* Same rounded corner as the button */
+        text-decoration: none;
+        color: #2db2ff; /* Initial text color */
+        font-weight: 400;
+        letter-spacing: 1px;
+        z-index: 1;
+        transition: 0.5s ease; /* Smooth hover effect */
+        backdrop-filter: blur(10px); /* Blur effect on the background */
+    }
+
+    /* Hover effect on the button */
+    .btn:hover a {
+        letter-spacing: 3px; /* Increase letter-spacing on hover */
+        color: #fff; /* Change text color to white on hover */
+    }
+
+    /* Hover gradient effect on the button */
+    .btn a::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(to left, rgba(255, 255, 255, 0.2), transparent); /* Gradient */
+        transform: skewX(45deg) translate(0); /* Initial skew and translation */
+        transition: 0.5s ease;
+    }
+
+    /* Move the gradient on hover */
+    .btn:hover a::before {
+        transform: skewX(45deg) translate(200px); /* Slide the gradient on hover */
+    }
+
+    /* Bottom highlight effect */
+    .btn::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -5px;
+        width: 30px;
+        height: 10px;
+        background: #2db2ff; /* Button highlight color */
+        border-radius: 10px;
+        transition: 0.5s ease;
+    }
+
+    /* Increase highlight size on hover */
+    .btn:hover::before {
+        bottom: 0;
+        height: 50%;
+        width: 80%;
+        border-radius: 30px;
+    }
+
+    /* Top highlight effect */
+    .btn::after { 
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -5px;
+        width: 30px;
+        height: 10px;
+        background: #2db2ff; /* Button highlight color */
+        border-radius: 10px;
+        transition: 0.5s ease;
+    }
+
+    /* Increase top highlight size on hover */
+    .btn:hover::after {
+        top: 0;
+        height: 50%;
+        width: 80%;
+        border-radius: 30px;
+    }

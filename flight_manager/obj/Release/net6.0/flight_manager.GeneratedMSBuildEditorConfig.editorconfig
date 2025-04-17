@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = flight_manager
+build_property.RootNamespace = flight_manager
+build_property.ProjectDir = /Users/stiliyanhristov/Projects/flight_manager/flight_manager/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/stiliyanhristov/Projects/flight_manager/flight_manager
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Admin/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWRtaW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Admin/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Admin/Flights_Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRmxpZ2h0c19BZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Admin/Reservations_Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUmVzZXJ2YXRpb25zX0FkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Admin/StaffInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3RhZmZJbmZvcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Home/Aboutus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Home/Flights.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9GbGlnaHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Shared/Flights_Normal_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0ZsaWdodHNfTm9ybWFsX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Shared/LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0xvZ2luTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Shared/StaffLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1N0YWZmTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Staff/Flights_Staff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZmYvRmxpZ2h0c19TdGFmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Staff/Reservations_Staff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZmYvUmVzZXJ2YXRpb25zX1N0YWZmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Staff/StaffDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZmYvU3RhZmZEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/stiliyanhristov/Projects/flight_manager/flight_manager/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hzhfvn070u
