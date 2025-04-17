@@ -46,5 +46,5 @@ See the [LICENSE](https://github.com/HrSTILL/Stoichev/blob/9da5130840b79c81c7f65
 *For inquiries, please reach out to the group members:*
 
 - Stiliyan Hristov: hristovstilian94@gmail.com
-- Konstantin Minchev: k_minchev@55su.bg
-- Kristian Raykov: kris105@abv.bg
+- Konstantin Minchev: -
+- Kristian Raykov: -
